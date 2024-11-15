@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo-energy-pilates.png" alt="Logo" style="width: 120px" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Bài viết</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Video</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sự kiện</a></li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Vietnamese</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">English</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container section">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Về tôi</h2>
+                <div class="card text-center bg-light border-0">
+                    <img src="images/avatar.png" class="card-img-top rounded-circle" alt="Avatar" />
+                    <div class="card-body">
+                        <h5 class="card-title">Hồ Hoàng Phú</h5>
+                        <p class="card-text">
+                            Sinh viên FPT Polytechnic<br />
+                            Kỳ 4, Khóa 19.3<br />
+                            <em>"Cuộc đời ngắn ngủi, đừng sống thay cho ước mơ của người khác."</em>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-8 mt-3">
+                <h2>Quản lý thông tin cá nhân</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Tên người dùng:</label>
+                        <input type="text" class="form-control" id="username" value="Hồ Hoàng Phú" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" value="phuhhps38631@gmail.com" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Số điện thoại:</label>
+                        <input type="tel" class="form-control" id="phone" value="0123456789" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Mật khẩu mới:</label>
+                        <input type="password" class="form-control" id="password"
+                            placeholder="Để trống nếu không thay đổi" />
+                    </div>
+                    <button type="submit" class="btn btn-warning w-100">
+                        Cập nhật thông tin
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light py-5">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <div class="col-md-4 mb-4">
+                    <h5>XNews</h5>
+                    <p>
+                        XNews - Nơi hội tụ những tin tức mới nhất và chất lượng nhất. Chúng tôi cam kết mang đến trải
+                        nghiệm đọc tin tuyệt vời.
+                    </p>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <h5>Liên kết nhanh</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none">Giới thiệu</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Chính sách bảo mật</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Điều khoản sử dụng</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Liên hệ</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <h5>Kết nối với chúng tôi</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none">Facebook</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Telegram</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">TikTok</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p class="mb-0">&copy; 2024 XNews. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
